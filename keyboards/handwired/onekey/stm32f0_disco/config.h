@@ -19,4 +19,7 @@
 #define BACKLIGHT_PWM_DRIVER  PWMD3
 #define BACKLIGHT_PAL_MODE    0
 
+#define I2C1_SCL_PAL_MODE 1
+#define I2C1_SDA_PAL_MODE 1
+
 #define ADC_PIN A0

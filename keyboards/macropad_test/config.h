@@ -1,0 +1,10 @@
+#define ENCODER_A_PINS { B2 }
+#define ENCODER_B_PINS { B3 }
+#define ENCODER_DIRECTION_FLIP
+#define DIP_SWITCH_PINS { B1 } 
+
+// #define USE_SERIAL
+// #define SERIAL_USE_MULTI_TRANSPORT
+// #define RAW_EPSIZE 32
+// #define RAW_USAGE_PAGE 0xFF60
+// #define RAW_USAGE_ID 0x61
