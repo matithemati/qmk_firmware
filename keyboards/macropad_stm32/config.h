@@ -1,12 +1,18 @@
 #pragma once
 
-// #define STM32F0xx_MCUCONF
-
-#define ENCODER_A_PINS { A4 }
-#define ENCODER_B_PINS { A5 }
+#define ENCODER_A_PINS { A4, B0 }
+#define ENCODER_B_PINS { A5, B1 }
 #define ENCODER_DIRECTION_FLIP
-#define DIP_SWITCH_PINS { A6 }
+#define DIP_SWITCH_PINS { A6, A7 }
 
+// I2C config
 #define I2C_DRIVER I2CD1
 #define I2C1_SCL_PIN B6
 #define I2C1_SDA_PIN B7
+#define I2C1_SCL_PAL_MODE 1
+#define I2C1_SDA_PAL_MODE 1
+#define I2C1_TIMINGR_PRESC 0x00U
+#define I2C1_TIMINGR_SCLDEL 0x03U
+#define I2C1_TIMINGR_SDADEL 0x01U
+#define I2C1_TIMINGR_SCLH 0x03U
+#define I2C1_TIMINGR_SCLL 0x09U
